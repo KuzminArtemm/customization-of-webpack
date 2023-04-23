@@ -1,0 +1,27 @@
+$color: lightgrey;
+$fit: cover;
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  .header {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: $color;
+  }
+}
+.img {
+object-fit: $fit;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
